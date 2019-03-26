@@ -1,6 +1,7 @@
 body
 {
-    background:green;
+  
+    background-image: url('download(3).jpg');
 }
 table{
     border: 5px solid blue;
