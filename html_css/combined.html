@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    function read()
+    {
+        // console.log("test");
+        var n=document.getElementById("name").value;
+        console.log(n);
+        var x=document.getElementById("rollno").value;
+        console.log(x);
+        var z=document.getElementById("mes").value;
+        console.log(z);
+
+    }
+        </script>
+
+
+
+
+</head>
+<body>
+        <div class="container">
+                <div class="row">
+                   <div class="col col-12 col-sm-4"></div>
+                   <form>
+                   <table class="table">
+ <tr>
+     <td>Name</td>
+         <td><input type="text" id="name"></td>
+             </tr>
+              <tr>
+            <td>Admission no</td>
+             <td><input type="text" id="rollno"></td>
+            </tr>
+            <tr>
+                <td>College</td>
+                <td><input type="text" id="mes"></td>
+            </tr>
+            <tr>
+                    <td></td>
+                    <td><button type="button" class="abcd" onclick="read();">Login</button></td>
+                </tr>
+
+</table>
+</form>
+           <div class="col col-12 col-sm-4"></div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
