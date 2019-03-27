@@ -7,41 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script>
+        function read()
+        {
+            
+            var a=document.getElementById("name").value;
+        console.log(a);
+        var b=document.getElementById("rollno").value;
+        console.log(b);
+        var c=document.getElementById("Admssnno").value;
+        console.log(c);
+        var d=document.getElementById("college").value;
+        console.log(d);
+        var e=document.getElementById("username").value;
+        console.log(e);
+        var f=document.getElementById("password").value;
+        console.log(f);
+        var g=document.getElementById("confirm password").value;
+        console.log(g);
+        var h=document.getElementById("dist").value;
+        console.log(h);
+
+
+        }
+    </script>
 </head>
 <body>
         <div class="container">
                 <div class="ro">
                    <div class="col col-12 col-sm-6"></div>
+
     <table>
         <tr>
             <td>name</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="name"></td>
         </tr>
         <tr>
             <td>roll number</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="rollno"></td>
         </tr>
         <tr>
             <td>admission number</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="Admssnno"></td>
             <tr>
                 <td>college </td>
-                <td><input type="text"></td>
+                <td><input type="text" id="college"></td>
                 </tr>
                 <tr><td>username</td>
-                <td><input type="text"></td></tr>
+                <td><input type="text" id="username"></td></tr>
                 <tr>
                     <td>password</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="password"></td>
                 </tr>
                 <tr>
                     <td>confirm password</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="confirm password"></td>
                 </tr>
                 <tr>
                     <td>district</td>
                     <td>
-                        <select>
+                        <select id="dist">
                             <option>malappuram</option>
                             <option>kozhikode</option>
                             <option>kannur</option>
@@ -50,7 +75,7 @@
                    
                 </tr>
                 <tr><td></td>
-                <td><button>register</td></tr>
+                <td><button type="button" class="abcd" onclick="read();">register</td></tr>
 
                 </tr>
         </tr>
