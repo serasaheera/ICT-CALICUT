@@ -1,0 +1,4 @@
+prefixes="jklmnopq"
+suffix="ack"
+for i is prefixes:
+	print i+suffix

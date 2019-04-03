@@ -1,0 +1,6 @@
+a=[1,2,3]
+b=a+[1]
+print b
+c=b*3
+print c
+
