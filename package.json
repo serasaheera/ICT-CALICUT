@@ -1,0 +1,11 @@
+{
+  "name": "homework",
+  "version": "0.0.0",
+  "description": "html-css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sera",
+  "license": "BSD-2-Clause"
+}

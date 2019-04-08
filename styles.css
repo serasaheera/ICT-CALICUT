@@ -1,0 +1,15 @@
+body
+{
+    background-color: blueviolet;
+    border: 3px solid black;
+}
+table
+{
+    border: 6px saddlebrown;
+    background: palevioletred;
+}
+.abcd
+{
+    background: goldenrod;
+    border: 2px maroon;
+}
