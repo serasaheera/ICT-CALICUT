@@ -6,7 +6,7 @@ var app=express();
 
  });
  app.get('/home', (req,res)=>{
-     res.send("Home page");
+     res.send(' [{"name":"Tom","Age":23},{"name":"Riya","Age":22},{"name":"Manu","Age":24}]');
  });
  app.get('/contact',(req,res)=>{
      res.send("contact us");
