@@ -1,3 +1,3 @@
 const os=require('os');
-var user=os.networkInterfaces();
+var user=os.platform();
 console.log(user);
