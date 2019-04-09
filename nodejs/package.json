@@ -9,6 +9,7 @@
   "author": "saheerath",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "lodash": "~4.17.11"
+    "lodash": "~4.17.11",
+    "express-handlebars": "~3.0.2"
   }
 }
