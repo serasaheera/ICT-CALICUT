@@ -23,8 +23,21 @@ app.post('/getdata', (req,res)=>{
     console.log(mobile);
 });
 
+app.post('/login', (req,res)=>{
+
+    var user=req.body.username;
+    var pass=req.body.password;
+
+    if(user=="admin"&&pass=="1234"){
+        res.render("success");
+    }
+    else{
+        res.render("failed");
+    }
+});
+
  app.get('/', (req,res)=>{
-     res.render('index');
+     res.render('index',{name:'Tom'});
 
  });
  app.get('/home', (req,res)=>{
@@ -45,4 +58,6 @@ app.post('/getdata', (req,res)=>{
 
 
 
-app.listen(3000);
+app.listen(3000,()=>{
+    console.log('web App running successfully');
+});
